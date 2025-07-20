@@ -6,6 +6,16 @@ You are tasked with ensuring proper access control for the product management AP
 - Focus on the authentication mechanism applied to the POST and PUT endpoints.
 - Address only the specific security issue without changing unrelated application logic or structure.
 
+## Infrastructure Access Instructions:
+We have deployed this code in a docker on a server for you to test out and make changes. You may choose to use this as a test environment. Instructions to access the server:
+
+Server Info:
+- IP address: <IP_ADDRESS>
+- Key File to SSH: provided on the task page
+- Docker to use: <docker_name>
+
+Since these servers are shared between other tasks, please leave other infrastructure elements (e.g. other dockers running) alone.
+
 # Objectives
 - Enforce OAuth2 bearer token authentication strictly for POST and PUT product endpoints.
 - Ensure that unauthorized requests are rejected with appropriate error codes.
